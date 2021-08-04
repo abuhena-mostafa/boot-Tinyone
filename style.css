@@ -1,0 +1,50 @@
+/*.............font family.........*/
+@font-face{
+	font-family:pTsans-regular;
+	src: url(../fonts/PTN57F.ttf);
+}
+@font-face{
+	font-family:pTsans-bold;
+	src: url(../fonts/PTS75F.ttf);
+}
+
+/*.............body start........*/
+
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+	
+
+}
+body{
+	font-family: pTsans-regular;
+	font-size: 22px;
+	font-weight: 400;
+	color: black;
+
+
+}
+.container1{
+   
+}
+.menu{
+
+}
+.menu ul li a{
+	font-family: pTsans-bold;
+    font-weight: 700;
+    color: black !important;
+    padding: 0 45px !important;
+}
+.menu ul li:last-child a{
+	padding-right:0px !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+	cursor: pointer;
+}
+
+h1{
+	font-family: pTsans-regular;
+	text-align: center;
+}
